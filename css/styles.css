@@ -24,4 +24,34 @@ body {
 
 img {
     max-inline-size: 100%;
+    display: block;
+    margin-block-end: 0.3rem;
 }
+
+                /* Navigation */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-navigation ul {
+    display: flex;
+    gap: 1rem;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.primary-navigation ul a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.primary-navigation a:hover,
+.primary-navigation a:focus-visible {
+    color: #cf6c6c;
+}
+
