@@ -1,0 +1,27 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    color: #1b1b1b;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.title {
+    line-height: 1;
+    /* font-size: 2rem; */
+    font-size: 2.5rem;
+    color: #494d55;
+}
+
+.teal-text{
+    color: #077997;
+}
+
+img {
+    max-inline-size: 100%;
+}
