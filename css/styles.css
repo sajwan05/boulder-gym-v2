@@ -113,3 +113,21 @@ footer{
         align-self: start;
     }
 }
+
+a{
+    color: inherit;
+}
+
+a:visited{
+    color: #79df79;
+}
+
+a:hover, 
+a:focus-visible {
+    color: #a28348;
+}
+
+a:active {
+    color: #1f190a00;
+}
+
