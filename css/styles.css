@@ -18,13 +18,6 @@ body {
     
 }
 
-.title {
-    line-height: 1;
-    /* font-size: 2rem; */
-    font-size: 2.5rem;
-    color: #494d55;
-}
-
 .teal-text{
     color: #077997;
 }
@@ -32,7 +25,7 @@ body {
 img {
     max-inline-size: 100%;
     display: block;
-    margin-block-end: 0.3rem;
+    margin-block: 0.3rem;
 }
 
                 /* Navigation */
@@ -62,3 +55,25 @@ header {
     color: #cf6c6c;
 }
 
+.title {
+    line-height: 1;
+    /* font-size: 2rem; */
+    font-size: 2.5rem;
+    color: #494d55;
+}
+
+h2{
+    color: #cb731b;
+    font-size: 2rem;
+}
+
+.teal-background{
+    background: #087997;
+    color: #fff;
+    padding: 0.2rem 0.4rem;
+    border: 4px groove #044f64;
+}
+
+footer{
+    text-align: center;
+}
