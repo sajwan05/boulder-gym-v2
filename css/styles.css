@@ -29,7 +29,7 @@ body {
 img {
     max-inline-size: 100%;
     display: block;
-    margin-block: 0.3rem;
+    margin-block: 1rem;
 }
 
                 /* Navigation */
@@ -81,6 +81,27 @@ h2{
     color: #cb731b;
     font-size: 2rem;
     margin: 0;
+
+    @media (width > 850px){
+        font-size: 2.5rem;
+    }
+}
+
+h3 {
+    margin: 0;
+}
+
+.background-accent{
+    background-image: url(../images/simple-steps.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 0.5rem;
+    border: 5px groove #044f64;
+}
+
+.background-accent h2 {
+    color: #fff;
 }
 
 .teal-background{
@@ -93,12 +114,16 @@ h2{
 
 footer{
     text-align: center;
+    margin-top: 1rem;
 }
 
 /* Layout */
-.two-column-layout{
-    margin-block: 1rem;
+.two-column-layout,
+.two-column-layout > *{
+    margin-block: 2rem;
 }
+
+
 
 @media (width > 850px){
     .two-column-layout{
@@ -107,9 +132,9 @@ footer{
         gap: 2rem;
     }
 
-    .two-colum-layout > * {
+    .two-column-layout > * {
         max-inline-size: 47%;
-        flex: 1 1 auto;
+        flex: 1 1 0;
         align-self: start;
     }
 }
